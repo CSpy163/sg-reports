@@ -4,57 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5886b2e3-5c41-44ab-8b04-93af15cecb12" name="变更" comment="gradle迁移到maven">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/ReportGeneratedInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/ReportOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/configure/ReportInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportCompileContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/enums/ReportCompileStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/util/RenderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/util/SgResourceFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/java/site/cspy/reports/report_test/TestReportReportOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/INSTRUCTIONS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/app.A.install.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/app.B.error.help.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/biblio.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.01.basics.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.02.text.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.03.elements.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.04.math.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.05.style.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.06.spec.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.07.graphic.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.08.custom.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/fdl.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/preface.contrib.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/preface.overview.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/sec.symbol.table.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/titlepage.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/latexmkrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn-layout.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn-style.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn.ist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/BusinessWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/base/RestResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="5886b2e3-5c41-44ab-8b04-93af15cecb12" name="变更" comment="gradle迁移到maven，打包并测试完成">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +41,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2KmHVRctg8us5r51zIOCLzTdrH5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -197,15 +150,36 @@
       <workItem from="1674573181680" duration="4362000" />
       <workItem from="1674577564835" duration="8320000" />
       <workItem from="1674585967771" duration="396000" />
-      <workItem from="1674586378397" duration="1874000" />
+      <workItem from="1674586378397" duration="3075000" />
     </task>
+    <task id="LOCAL-00001" summary="gradle迁移到maven，打包并测试完成">
+      <created>1674588359177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674588359177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="gradle迁移到maven，打包并测试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle迁移到maven，打包并测试完成" />
   </component>
 </project>
