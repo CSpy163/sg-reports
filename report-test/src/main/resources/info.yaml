@@ -1,0 +1,6 @@
+reports:
+  info:
+    name: 测试报表1
+    code: report-test
+    version: 0.0.1
+    description: 这是用于测试的第一个报表

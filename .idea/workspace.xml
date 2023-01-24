@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5886b2e3-5c41-44ab-8b04-93af15cecb12" name="变更" comment="gradle迁移到maven">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/ReportGeneratedInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/ReportOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/configure/ReportInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportCompileContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/ReportInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/domain/enums/ReportCompileStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/util/RenderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/site/cspy/reports/core/util/SgResourceFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/java/site/cspy/reports/report_test/TestReportReportOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/INSTRUCTIONS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/app.A.install.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/app.B.error.help.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/biblio.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.01.basics.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.02.text.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.03.elements.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.04.math.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.05.style.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.06.spec.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.07.graphic.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/chap.08.custom.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/fdl.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/preface.contrib.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/preface.overview.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/sec.symbol.table.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/chap/titlepage.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/latexmkrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn-layout.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn-style.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn.ist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/lshort-zh-cn.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report-test/src/main/resources/report-test/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/BusinessWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/base/RestResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/site/cspy/reports/web/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2KmHVRctg8us5r51zIOCLzTdrH5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/SgProjects/sg-reports/web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "3ea30c9229f439a4742120f34e103812",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SgProjects\sg-reports\reports\test-report\src\main\resources" />
+      <recent name="D:\SgProjects\sg-reports\web\src\main\java\site\cspy\reports\web" />
+      <recent name="D:\SgProjects\sg-reports\core\src\main\java\site\cspy\reports\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SgProjects\sg-reports\report-test\src\main" />
+      <recent name="D:\SgProjects\sg-reports" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="site.cspy.reports.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="site.cspy.reports.test_report" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BusinessWebApplication">
+    <configuration name="package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+                <option value="spring-boot:repackage" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BusinessWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.cspy.reports.web.BusinessWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.cspy.reports.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.package" />
+      <item itemvalue="Spring Boot.BusinessWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BusinessWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5886b2e3-5c41-44ab-8b04-93af15cecb12" name="变更" comment="" />
+      <created>1674572863259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674572863259</updated>
+      <workItem from="1674572864611" duration="118000" />
+      <workItem from="1674573181680" duration="4362000" />
+      <workItem from="1674577564835" duration="8320000" />
+      <workItem from="1674585967771" duration="396000" />
+      <workItem from="1674586378397" duration="1874000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+  </component>
+</project>
